@@ -90,7 +90,7 @@ $(() => {
             .attr({
                 id: "theme-css",
                 rel: "stylesheet",
-                href: `${pathCss}/${file}?t=${Date.now()}`
+                href: `css/${file}?t=${Date.now()}`
             });
 
         link.on('load', () => {
